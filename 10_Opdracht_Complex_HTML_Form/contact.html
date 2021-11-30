@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Links, Images, Lists: -About-</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="werk.html">Mijn werk</a></li>
+                    <li><a href="about.html">Over mij</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+
+                </ul>
+            </nav>
+            
+            <h1>Contact</h1>
+        </header>
+
+        <main>
+            <form name="contact" method="POST" data-netlify="true">
+            
+                <p>
+                    <label>Naam: </label><br>
+                    <input type="text" name="naam" size="30" />
+                </p>
+                <p>
+                    <label>Email: </label><br>
+                    <input type="email" name="email"  size="30" /><br>
+                </p>
+                <p>
+                    <label>Telefoonnummer: </label><br>
+                    <input type="tel" name="telefoon" placeholder="0123456789" pattern="[0]{1}[0-9]{9}" size="30" />
+                </p>
+                <p>
+                    <label>Leeftijd: </label><br>
+                    <input type="number" name="leeftijd" min="0" max="115" size="3" />
+                </p>
+                <p>
+                    <label>Geboortedatum: </label><br>
+                    <input type="date" name="geboortedatum" />
+                </p>
+                <p>
+                    Geslacht: <br>
+                    <input type="radio" id="man" name="geslacht" value="Man" />
+                    <label for="man">Man</label><br>
+                    
+                    <input type="radio" id="vrouw" name="geslacht" value="Vrouw" />
+                    <label for="vrouw">Vrouw</label><br>
+                                        
+                    <input type="radio" id="anders" name="geslacht" value="Anders" />
+                    <label for="vrouw">Anders</label><br>
+                </p>
+                <p>
+                    Favoriete keuken: <br>
+                    <input type="checkbox" id="frans" name="frans" value="Frans" />
+                    <label>Frans</label><br>
+
+                    <input type="checkbox" id="italiaans" name="italiaans" value="Italiaans" />
+                    <label>Italiaans</label><br>
+
+                    <input type="checkbox" id="spaans" name="spaans" value="Spaans" />
+                    <label>Spaans</label><br>
+
+                    <input type="checkbox" id="arabisch" name="arabisch" value="Arabisch" />
+                    <label>Arabisch</label><br>
+                </p>
+                <p>
+                    <label>Favoriete kleur schort: </label><br>
+                    <input type="color" name="favkleur"  />
+                </p>
+                <p>
+                    <label>Biografie: </label><br>
+                    <textarea name="message" cols="25"></textarea>  
+                </p>
+                <p>
+                    <label>Upload laatste recept: </label><br>
+                    <input type="file" name="recept" />
+                </p>
+                <p>
+                    <label>Websiteadres van het recept: </label><br>
+                    <input type="url" name="url" size="75" value="http://" placeholder="http://" />
+                </p>
+                <p>
+                    <input type="submit" />
+                    <input type="reset" />
+                </p>
+
+            </form>
+        </main>
+
+        <footer>
+            Copyright 2021, Martin de Greef
+        </footer>
+    </body>
+</html>
