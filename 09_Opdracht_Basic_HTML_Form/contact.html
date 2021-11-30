@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Links, Images, Lists: -About-</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="werk.html">Mijn werk</a></li>
+                    <li><a href="about.html">Over mij</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+
+                </ul>
+            </nav>
+            
+            <h1>Contact</h1>
+        </header>
+
+        <main>
+            <form name="contact" method="POST" data-netlify="true">
+            
+                <p>
+                    <label>Name: <input type="text" name="name" size="30" />
+                    </label>
+                </p>
+                <p>
+                    <label>Email: <input type="email" name="email"  size="30" />
+                    </label>
+                </p>
+                <p>
+                    <label>Message: 
+                      <textarea name="message" cols="25"></textarea>  
+                    </label>
+                </p>
+                
+                <p>
+                    <input type="submit" />
+                </p>
+
+            </form>
+        </main>
+
+        <footer>
+            Copyright 2021, Martin de Greef
+        </footer>
+    </body>
+</html>
