@@ -1,0 +1,124 @@
+h1 {
+    margin-left: 240px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+}
+
+p {
+    margin-left: 240px;
+    font-family: Montserrat;
+}
+
+.button-toggle-nav {
+    position: fixed;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1000;
+    background-image: url("img/hamburger_menu.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.nav-sidebar {
+    position: fixed;
+    left: 0;
+    top: 40px;
+    width: 0px;
+    padding: 0px;
+    z-index: 1000;
+    transition: all 0.4s ease-in-out;
+}
+
+.nav-sidebar ul {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #3d3d3d;
+    border-bottom: none;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.nav-sidebar ul li{
+    line-height: 25px;
+    list-style: none;
+}
+
+.nav-sidebar ul li a{
+    display: block;
+    border-bottom: 1px solid #3d3d3d;
+    padding-left: 10px;;
+    height: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.nav-sidebar ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/* verschillende Achtergrondkleuren */
+
+.start {
+    background-color: #dbdbdb;
+}
+
+.gray {
+    background-color: gray;
+    color: #3d3d3d;
+}
+
+.aliceblue {
+    background-color: aliceblue;
+    color: #3d3d3d;
+}
+
+.aqua {
+    background-color: aqua;
+    color: #3d3d3d;
+}
+
+.burlywood {
+    background-color: burlywood;
+    color: #3d3d3d;
+}
+
+.darkgoldenrod {
+    background-color: darkgoldenrod;
+    color: #3d3d3d;
+}
+
+.palegreen {
+    background-color: palegreen;
+    color: #3d3d3d;
+}
+
+.salmon {
+    background-color: salmon;
+    color: #3d3d3d;
+}
+
+.tomato {
+    background-color: tomato;
+    color: #3d3d3d;
+}
+
+.midnightblue{
+    background-color: midnightblue;
+    color: #dbdbdb;
+}
+
+
